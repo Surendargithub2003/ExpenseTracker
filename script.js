@@ -30,7 +30,7 @@ function transaction() {
     let amt = parseInt(document.querySelector(".amount").value);
     let category = document.getElementById("category").value;
     let date = new Date();
-    let today = date.toISOString().split('T')[0]; // YYYY-MM-DD format
+    let today = date.toISOString().split('T')[0];
     let description = document.querySelector(".description").value;
     let storedPara = JSON.parse(localStorage.getItem("para")) || [];
    
@@ -65,9 +65,9 @@ function calculateTotals() {
     let transactions = JSON.parse(localStorage.getItem("transactions")) || [];
     let today = new Date().toISOString().split('T')[0];
     let weekStart = new Date();
-    weekStart.setDate(weekStart.getDate() - weekStart.getDay()); // Get start of the week
+    weekStart.setDate(weekStart.getDate() - weekStart.getDay()); 
     let monthStart = new Date();
-    monthStart.setDate(1); // First day of the month
+    monthStart.setDate(1);
 
     let dailyTotal = 0, weeklyTotal = 0, monthlyTotal = 0;
 
