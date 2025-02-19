@@ -1,0 +1,49 @@
+body
+{
+    background:linear-gradient(to right , rgb(127, 127, 245) , rgb(159, 243, 159));
+}
+
+.login
+{
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(250, 94, 73), rgb(0, 92, 212));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container 
+{
+    margin-left: 35%;
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.726);
+    border-radius: 20px;
+}
+
+input
+{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+label
+{
+    margin-left: 40px;
+}
+
+.btn
+{
+    margin-top: 80px;
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.logb
+{
+    border-radius: 10px;
+    width: 40%;
+    height: 30px;
+    margin-left: 20px;
+}
