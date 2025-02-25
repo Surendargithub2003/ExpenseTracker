@@ -1,0 +1,27 @@
+{
+  "name": "Expense_Manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "account.js",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/es6-shim": "^0.31.45",
+    "@types/xlsx": "0.0.36"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Surendargithub2003/ExpenseTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Surendargithub2003/ExpenseTracker/issues"
+  },
+  "homepage": "https://github.com/Surendargithub2003/ExpenseTracker#readme"
+}
